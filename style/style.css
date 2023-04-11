@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+
+body{       
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #111010;
+}
+
+#container{
+    background-color: #111010;
+    width: 1200px;
+    visibility: visible;
+    margin: auto;
+}
+
+#Botoes{
+    height: 40px;
+    position: relative;
+    left: 900px;
+}
+
+#cabecalho{
+    color: #111010;
+    width: 940px;
+    height: 120px;
+    margin:auto;
+    padding: 2px;
+    border-bottom: 2px solid #020302;    
+}
+
+#cabecalho img{
+    margin: 5px 20px 20px 20px;
+    float: left;
+}
+
+header > h1{
+    font-weight:bolder;
+    
+}
+
+#corpo{
+    width: 940px;
+    margin: auto;
+      
+    padding: 2px;
+    border-bottom: 2px solid #050805;
+    display:block;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+#corpo h3{
+    color: #000000;
+    text-align: center;
+}
+
+#corpo h2{
+    font-size: 24px;
+    margin: 4px;
+    text-align: justify;
+}
+
+#corpo p{
+    margin: 4px;
+}
+
+
+
+.foto{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: #313131 3px solid;
+}
+
+.bio p{    
+    font-size: 15px;
+    color:#060c06;
+    font-weight: 600;
+}
+
+.bio h2{
+    color: #020502;
+}
+
+.bio{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: #676867 1px solid;
+}
+
+.bio p{
+    
+    float: inline-end;
+}
+
+#rodape{
+    width: 940px;
+    height: 60px;
+    margin: auto;    
+    padding: 2px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    font-weight: 600;
+    color: #082ccc;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    background-color: #ffffff;
+}
+
+.color1 {
+    color: #051780;
+}
+
+.color2 {
+    color: #d64c0c;
+}
+
+.color3 {
+    color: #c0bdbd;
+}
+
+.no-border {
+    border: none;
+    margin-bottom: 10px;
+}
